@@ -1,0 +1,6 @@
+models/
+.abliterate_checkpoints/
+__pycache__/
+*.pyc
+*.npy
+.DS_Store
