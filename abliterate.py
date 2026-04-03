@@ -482,7 +482,7 @@ def convert_to_mlx_4bit(bf16_dir: Path, mlx_dir: Path, checkpoint_path: Path):
     import subprocess
     result = subprocess.run(
         [
-            sys.executable, "-m", "mlx_lm.convert",
+            sys.executable, "-m", "mlx_vlm.convert",
             "--hf-path", str(bf16_dir),
             "--mlx-path", str(mlx_dir),
             "-q",

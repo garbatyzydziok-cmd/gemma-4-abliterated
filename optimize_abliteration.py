@@ -221,7 +221,7 @@ def create_abliterated_model(
 def convert_to_mlx_4bit(bf16_dir: Path, mlx_dir: Path):
     """Convert bf16 to MLX 4-bit."""
     result = subprocess.run(
-        [sys.executable, "-m", "mlx_lm.convert",
+        [sys.executable, "-m", "mlx_vlm.convert",
          "--hf-path", str(bf16_dir),
          "--mlx-path", str(mlx_dir),
          "-q"],
