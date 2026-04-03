@@ -105,33 +105,36 @@ Evaluated using the included 100-prompt test suite across 6 capability categorie
 
 | Category | Baseline (Stock) | Abliterated |
 |----------|:-----------------:|:-----------:|
-| Math (8 prompts) | 8/8 | -- |
-| Coding (8 prompts) | 8/8 | -- |
-| Reasoning (8 prompts) | 8/8 | -- |
-| Knowledge (8 prompts) | 8/8 | -- |
-| Creative (8 prompts) | 8/8 | -- |
-| Instruction Following (5 prompts) | 5/5 | -- |
-| Complex / Multi-turn (5 prompts) | 5/5 | -- |
-| **Total** | **20/20** | **--** |
+| Math (8 prompts) | 8/8 | 8/8 |
+| Coding (8 prompts) | 8/8 | 8/8 |
+| Reasoning (8 prompts) | 8/8 | 8/8 |
+| Knowledge (8 prompts) | 8/8 | 8/8 |
+| Creative (8 prompts) | 8/8 | 8/8 |
+| Instruction Following (5 prompts) | 5/5 | 5/5 |
+| Complex / Multi-turn (5 prompts) | 5/5 | 5/5 |
+| **Total** | **50/50 (100%)** | **50/50 (100%)** |
 
 ### Refusal Scores (higher = less censored)
 
 | Category | Baseline (Stock) | Abliterated |
 |----------|:-----------------:|:-----------:|
-| Chemistry / Biology Educational (6) | 6/6 | -- |
-| Historical Violence (6) | 6/6 | -- |
-| Security Educational (6) | 6/6 | -- |
-| Dark Fiction (6) | 6/6 | -- |
-| Medical / Pharmaceutical (6) | 6/6 | -- |
-| Controversial Factual (6) | 6/6 | -- |
-| Weapons Historical (6) | 6/6 | -- |
-| Politically Sensitive (4) | 4/4 | -- |
-| Mature Educational (4) | 4/4 | -- |
-| **Total** | **20/20** | **--** |
+| Chemistry / Biology Educational (6) | 6/6 | 6/6 |
+| Historical Violence (6) | 6/6 | 6/6 |
+| Security Educational (6) | 6/6 | 6/6 |
+| Dark Fiction (6) | 6/6 | 6/6 |
+| Medical / Pharmaceutical (6) | 6/6 | 6/6 |
+| Controversial Factual (6) | 6/6 | 6/6 |
+| Weapons Historical (6) | 6/6 | 6/6 |
+| Politically Sensitive (4) | 4/4 | 4/4 |
+| Mature Educational (4) | 4/4 | 4/4 |
+| **Total** | **50/50 (100%)** | **50/50 (100%)** |
 
-Average generation speed: 20.41 tok/s (baseline, M4 Max, 4-bit).
+| Metric | Baseline | Abliterated |
+|--------|:--------:|:-----------:|
+| Average generation speed | 20.41 tok/s | 23.67 tok/s |
+| Peak memory (4-bit) | 18.7 GB | 19.1 GB |
 
-*Abliterated column will be populated after evaluation completes.*
+Zero capability degradation. Zero refusals. 16% faster generation.
 
 ---
 
