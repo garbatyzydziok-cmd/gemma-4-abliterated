@@ -1,12 +1,18 @@
 # gemma-4-abliterated
 
-**Quality-preserving abliteration of Google's Gemma 4 31B. Removes refusal behavior while maintaining full model intelligence. Runs on Apple Silicon via MLX.**
+### The first quality-preserving abliteration of Google's Gemma 4 31B. Full guardrail removal. Zero intelligence loss. Runs locally on Apple Silicon.
+
+[![Star this repo](https://img.shields.io/github/stars/199-biotechnologies/gemma-4-abliterated?style=social)](https://github.com/199-biotechnologies/gemma-4-abliterated/stargazers)
+[![Follow @longevityboris](https://img.shields.io/twitter/follow/longevityboris?style=social)](https://x.com/longevityboris)
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Model Size](https://img.shields.io/badge/Parameters-31B-green.svg)]()
+[![Model Size](https://img.shields.io/badge/Parameters-31B_Dense-green.svg)]()
 [![Framework](https://img.shields.io/badge/Framework-MLX-orange.svg)](https://github.com/ml-explore/mlx)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)]()
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-Model-yellow.svg)](https://huggingface.co/199-biotechnologies/gemma-4-31b-abliterated-mlx-4bit)
+[![HuggingFace Model](https://img.shields.io/badge/%F0%9F%A4%97_HuggingFace-Model-yellow.svg)](https://huggingface.co/199-biotechnologies/gemma-4-31b-abliterated-mlx-4bit)
+[![HuggingFace Collection](https://img.shields.io/badge/%F0%9F%A4%97_HuggingFace-Collection-orange.svg)](https://huggingface.co/199-biotechnologies)
+
+> Built by [Boris Djordjevic](https://x.com/longevityboris) at [Paperfoot AI](https://paperfoot.com) / [199 Biotechnologies](https://github.com/199-biotechnologies)
 
 ---
 
@@ -202,3 +208,21 @@ Built by [Boris Djordjevic](https://x.com/longevityboris) at [Paperfoot AI](http
 ## License
 
 Apache 2.0 -- same as the base Gemma 4 model. See [LICENSE](LICENSE) for details.
+
+---
+
+## Links
+
+- **Model weights:** [HuggingFace: 199-biotechnologies/gemma-4-31b-abliterated-mlx-4bit](https://huggingface.co/199-biotechnologies/gemma-4-31b-abliterated-mlx-4bit)
+- **Source code:** [GitHub: 199-biotechnologies/gemma-4-abliterated](https://github.com/199-biotechnologies/gemma-4-abliterated)
+- **Technical writeup:** [TECHNICAL.md](TECHNICAL.md)
+- **Author:** [Boris Djordjevic (@longevityboris)](https://x.com/longevityboris)
+- **Company:** [Paperfoot AI](https://paperfoot.com)
+- **Org:** [199 Biotechnologies](https://github.com/199-biotechnologies)
+
+---
+
+If this model is useful to you, please consider giving it a star and following for more open-source AI work:
+
+[![Star this repo](https://img.shields.io/github/stars/199-biotechnologies/gemma-4-abliterated?style=for-the-badge)](https://github.com/199-biotechnologies/gemma-4-abliterated/stargazers)
+[![Follow @longevityboris on X](https://img.shields.io/twitter/follow/longevityboris?style=for-the-badge)](https://x.com/longevityboris)
